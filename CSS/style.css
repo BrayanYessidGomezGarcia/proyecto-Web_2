@@ -191,3 +191,14 @@
     width: 3vh;
     height: 3vh;
 }
+
+/* **** Carrito **** */
+
+.img_pag1_carrito{
+    width: 10vh;
+    height: 20vh;
+}
+.abrigos_carrito{
+    width: 100%;
+    height: 30vh;
+}
