@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container_1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-content: flex-start;
+    flex-direction: rows;
+    background: rgb(247, 167, 167);
+}
+.menu_shop{
+    display: flex;
+    width: 46vh;
+    flex-direction: column;
+    padding: 10px;
+}
+.titulo_pag_1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5vh 0 0 0;
+    color: rgb(58, 12, 58);
+}
+.menu{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh 0 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu_a{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 0 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    transition: 0.2s;
+}
+.menu_a:hover{
+    color: rgb(58, 12, 58);
+}
+.carrito{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin: 18vh 15vh ;
+    justify-content: start;
+    transition: 0.2s;
+    color: white;
+}
+.carrito :hover{
+    color: rgb(58, 12, 58);
+}
+.icono_carrito{
+    fill: white;
+    color: white;
+    margin: 0 4vh 0 0;
+}
+.m_carrito{
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none; 
+}
+.tienda_productos{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background: white;
+    width: 150vh;
+    height: 90vh;
+    border: 20px solid rgb(221, 208, 208);
+    border-radius: 20px;
+    margin: 3vh 0 0 0;
+}
+.subtitulo_pag_1{
+    display: flex;
+    width: 15   0vh;
+    height: 8vh;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+    border: 40px solid solid rgb(221, 208, 208);
+    
+}
+.caja_producto{
+    display: flex ;
+    width: 98.5%;
+    height: 30vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.productos{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+.caja_producto{
+    width: 147.8vh;
+    height: 40vh;
+    margin: 0;
+}
+.abrigos{
+    display: flex ;
+    flex-direction:column   ;
+    align-items: center;
+    width: 25vh;
+    height: 35vh;
+    margin: 0;
+    border: 10px solid rgb(221, 208, 208);
+}
+.img_pag1{
+    width: 25vh;
+    height: 25vh;
+}
+.articulo_pag1{
+    display: flex;
+    flex-direction: column;
+}
+.texto_abrigo{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0 0 15px;
+}
+.precio_abrigo{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 0 0 0;
+}
+.boton_abrigo{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 10vh;
+    height: 3vh;
+    font-weight: bold;
+    background: rgb(236, 115, 190);
+    box-shadow: purple;
+    color: white;
+    border-radius: 5px;
+    margin: 1vh 0 0 1vh;
+    transition: background-color 0.5s, box-shadow 0.5s;
+    border-color: rgb(236, 115, 190);
+    cursor: pointer;
+}
+.boton_abrigo:hover{
+    background: purple;
+    box-shadow: none;
+}
+.icono_carrito{
+    width: 3vh;
+    height: 3vh;
+}
